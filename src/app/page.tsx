@@ -1,6 +1,9 @@
 import { HeaderSection } from "@/sections/header-section";
 import styles from '@/app/cart/[productName]/styles.module.css';
 import { VisionSection } from "@/sections/vision-section";
+import { MaterialsSection } from "@/sections/materials-section";
+import { ProductsSection } from "@/sections/products-section";
+
 export default function Home() {
   return (
     <main className="">
@@ -68,6 +71,8 @@ export default function Home() {
       </div>
       <HeaderSection></HeaderSection>
       <VisionSection></VisionSection>
+      <MaterialsSection></MaterialsSection>
+      <ProductsSection></ProductsSection>
     </main>
   );
 }

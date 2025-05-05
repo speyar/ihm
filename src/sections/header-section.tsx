@@ -1,5 +1,3 @@
-import { title } from "process";
-
 export function HeaderSection() {
     const TITLE = "Live With Intention";
     const DESCRIPTION = "Our handcrafted furniture is born from natural materials, shaped with care, and made to last.";
